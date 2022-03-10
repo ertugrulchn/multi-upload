@@ -1,0 +1,15 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Support\Facades\Route;
+use Uutkukorkmaz\RouteOrganizer\RegistersRouteGroup;
+
+class {{ class }} implements RegistersRouteGroup
+{
+    public static function register()
+    {
+        //
+    }
+
+}
